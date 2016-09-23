@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NUnitLite</id>
+    <version>3.4.1</version>
+    <title>NUnitLite Version 3</title>
+    <authors>Charlie Poole</authors>
+    <owners>Charlie Poole</owners>
+    <licenseUrl>http://nunit.org/nuget/nunit3-license.txt</licenseUrl>
+    <projectUrl>http://nunit.org/</projectUrl>
+    <iconUrl>http://nunit.org/nuget/nunitv3_32x32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NUnitLite provides a simple way to run NUnit tests, without the overhead of a full NUnit installation. It is suitable for projects that want to have a quick way to run tests using a console runner and don't need all the features of the NUnit engine and console runner.
+
+Supported platforms:
+- .NET 2.0+
+- .NET Core (Universal Windows Apps 10+, DNX Core 5+)
+- Portable Libraries (supporting Profile259)
+        
+How to use this package:
+
+1. Create a console application for your tests and delete the generated class containing Main().
+2. Install the NUnitLite package, which creates a new Main() as well as adding a reference to NUnitLite. This will also bring in the NUnit package, which adds a reference to the nunit framework to your project.
+3. Add your tests to the test project and simply start the project to execute them.</description>
+    <summary>NUnitlite is a lightweight runner for tests that use the NUnit testing framework.</summary>
+    <copyright>Copyright (c) 2016 Charlie Poole</copyright>
+    <language>en-US</language>
+    <tags>test unit testing tdd framework fluent assert device phone embedded</tags>
+    <dependencies>
+      <dependency id="NUnit" version="[3.4.1]" />
+    </dependencies>
+  </metadata>
+</package>
