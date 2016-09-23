@@ -62,6 +62,14 @@ namespace LINQExample
             Assert.AreEqual(29, ExampleLinqTest.CountAeiou(longString));
         }
 
+        [Test]
+        public void WantOnlyMod7AndPlus1()
+        {
+            int[] series = new int[]{1,3,5,6,7,8,9,14,21,18,32,19,55,42,49,14,7};
+            var result = new int[] { 8, 15, 22, 43, 50, 15, 8 };
+            Assert.AreEqual(result, ExampleLinqTest.Mod7AndPlus1(series));
+        }
+
 
     }
 }

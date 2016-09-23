@@ -10,7 +10,6 @@ namespace LINQExample.Exams
     {
         public static int[] WhereIsOddsNumbers(int[] array) {
             throw new NotImplementedException();
-            return null;
         }
 
         public static string EvenLengthString(string[] mString)
@@ -28,8 +27,13 @@ namespace LINQExample.Exams
             throw new NotImplementedException();
         }
 
-        internal static int CountAeiou(string longString)
+        public static int CountAeiou(string longString)
         {   //ignore case A = a
+            throw new NotImplementedException();
+        }
+
+        public static object Mod7AndPlus1(int[] series)
+        {
             throw new NotImplementedException();
         }
     }
