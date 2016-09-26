@@ -1,58 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<test-run id="2" name="LINQExample.EXE" fullname="C:/Users/kwanchanok.n/Desktop/katalinq-master/LINQExample/bin/Debug/LINQExample.EXE" testcasecount="6" result="Failed" start-time="2016-09-23 10:00:01Z" end-time="2016-09-23 10:00:04Z" duration="2.546833" total="6" passed="2" failed="4" inconclusive="0" skipped="0" asserts="2" random-seed="1095443174">
-  <command-line><![CDATA["C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\bin\Debug\LINQExample.vshost.exe" ]]></command-line>
+<test-run id="2" name="LINQExample.exe" fullname="C:/Users/kwanchanok.n/Desktop/katalinq-master/LINQExample/bin/Debug/LINQExample.exe" testcasecount="6" result="Passed" start-time="2016-09-25 09:44:13Z" end-time="2016-09-25 09:44:13Z" duration="0.086349" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="6" random-seed="1177885321">
+  <command-line><![CDATA["C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\bin\Debug\LINQExample.exe"   ]]></command-line>
   <filter />
-  <test-suite type="Assembly" id="1007" name="LINQExample.EXE" fullname="C:/Users/kwanchanok.n/Desktop/katalinq-master/LINQExample/bin/Debug/LINQExample.EXE" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2016-09-23 10:00:01Z" end-time="2016-09-23 10:00:04Z" duration="2.546833" total="6" passed="2" failed="4" inconclusive="0" skipped="0" asserts="2">
-    <environment framework-version="3.4.1.0" clr-version="4.0.30319.34209" os-version="Microsoft Windows NT 6.3.9600.0" platform="Win32NT" cwd="C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\bin\Debug" machine-name="cnx-kwanchanok" user="kwanchanok.n" user-domain="CONNEX" culture="en-US" uiculture="en-US" os-architecture="x86" />
+  <test-suite type="Assembly" id="1007" name="LINQExample.exe" fullname="C:/Users/kwanchanok.n/Desktop/katalinq-master/LINQExample/bin/Debug/LINQExample.exe" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-09-25 09:44:13Z" end-time="2016-09-25 09:44:13Z" duration="0.086349" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="6">
+    <environment framework-version="3.4.1.0" clr-version="4.0.30319.34209" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\bin\Debug" machine-name="cnx-kwanchanok" user="kwanchanok.n" user-domain="CONNEX" culture="en-US" uiculture="en-US" os-architecture="x86" />
     <settings>
       <setting name="WorkDirectory" value="C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\bin\Debug" />
       <setting name="NumberOfTestWorkers" value="4" />
     </settings>
     <properties>
-      <property name="_PID" value="6460" />
-      <property name="_APPDOMAIN" value="LINQExample.vshost.exe" />
+      <property name="_PID" value="4088" />
+      <property name="_APPDOMAIN" value="LINQExample.exe" />
     </properties>
-    <failure>
-      <message><![CDATA[One or more child tests had errors]]></message>
-    </failure>
-    <test-suite type="TestSuite" id="1008" name="LINQExample" fullname="LINQExample" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2016-09-23 10:00:01Z" end-time="2016-09-23 10:00:04Z" duration="2.516333" total="6" passed="2" failed="4" inconclusive="0" skipped="0" asserts="2">
-      <failure>
-        <message><![CDATA[One or more child tests had errors]]></message>
-      </failure>
-      <test-suite type="TestFixture" id="1000" name="TestExample" fullname="LINQExample.TestExample" classname="LINQExample.TestExample" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2016-09-23 10:00:01Z" end-time="2016-09-23 10:00:04Z" duration="2.485083" total="6" passed="2" failed="4" inconclusive="0" skipped="0" asserts="2">
-        <failure>
-          <message><![CDATA[One or more child tests had errors]]></message>
-        </failure>
-        <test-case id="1005" name="FindAEIOU" fullname="LINQExample.TestExample.FindAEIOU" methodname="FindAEIOU" classname="LINQExample.TestExample" runstate="Runnable" seed="1869459635" result="Failed" label="Error" start-time="2016-09-23 10:00:01Z" end-time="2016-09-23 10:00:02Z" duration="0.843045" asserts="0">
-          <failure>
-            <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
-            <stack-trace><![CDATA[   at LINQExample.Exams.ExampleLinqTest.CountAeiou(String longString) in c:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\Exams\FindOdds.cs:line 38
-   at LINQExample.TestExample.FindAEIOU() in c:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\TestExample.cs:line 64]]></stack-trace>
-          </failure>
-        </test-case>
-        <test-case id="1004" name="FindPriceMoreThan20" fullname="LINQExample.TestExample.FindPriceMoreThan20" methodname="FindPriceMoreThan20" classname="LINQExample.TestExample" runstate="Runnable" seed="762785116" result="Failed" label="Error" start-time="2016-09-23 10:00:02Z" end-time="2016-09-23 10:00:03Z" duration="0.644766" asserts="0">
-          <failure>
-            <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
-            <stack-trace><![CDATA[   at LINQExample.Exams.ExampleLinqTest.GetOrdersPriceMoreThanOrEqual20(List`1 orders) in c:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\Exams\FindOdds.cs:line 32
-   at LINQExample.TestExample.FindPriceMoreThan20() in c:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\TestExample.cs:line 56]]></stack-trace>
-          </failure>
-        </test-case>
-        <test-case id="1003" name="FindSumOfOrdersThis" fullname="LINQExample.TestExample.FindSumOfOrdersThis" methodname="FindSumOfOrdersThis" classname="LINQExample.TestExample" runstate="Runnable" seed="280249199" result="Failed" label="Error" start-time="2016-09-23 10:00:03Z" end-time="2016-09-23 10:00:03Z" duration="0.461511" asserts="0">
-          <failure>
-            <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
-            <stack-trace><![CDATA[   at LINQExample.Exams.ExampleLinqTest.GetSumOfOrders(List`1 orders) in c:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\Exams\FindOdds.cs:line 27
-   at LINQExample.TestExample.FindSumOfOrdersThis() in c:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\TestExample.cs:line 37]]></stack-trace>
-          </failure>
-        </test-case>
-        <test-case id="1002" name="Test_LINQ_Find_EvenLengthString" fullname="LINQExample.TestExample.Test_LINQ_Find_EvenLengthString" methodname="Test_LINQ_Find_EvenLengthString" classname="LINQExample.TestExample" runstate="Runnable" seed="1333330319" result="Passed" start-time="2016-09-23 10:00:03Z" end-time="2016-09-23 10:00:03Z" duration="0.006408" asserts="1" />
-        <test-case id="1001" name="Test_LINQ_Where" fullname="LINQExample.TestExample.Test_LINQ_Where" methodname="Test_LINQ_Where" classname="LINQExample.TestExample" runstate="Runnable" seed="953101347" result="Passed" start-time="2016-09-23 10:00:03Z" end-time="2016-09-23 10:00:03Z" duration="0.004724" asserts="1" />
-        <test-case id="1006" name="WantOnlyMod7AndPlus1" fullname="LINQExample.TestExample.WantOnlyMod7AndPlus1" methodname="WantOnlyMod7AndPlus1" classname="LINQExample.TestExample" runstate="Runnable" seed="1794022155" result="Failed" label="Error" start-time="2016-09-23 10:00:03Z" end-time="2016-09-23 10:00:04Z" duration="0.368026" asserts="0">
-          <failure>
-            <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
-            <stack-trace><![CDATA[   at LINQExample.Exams.ExampleLinqTest.Mod7AndPlus1(Int32[] series) in c:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\Exams\FindOdds.cs:line 43
-   at LINQExample.TestExample.WantOnlyMod7AndPlus1() in c:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\TestExample.cs:line 72]]></stack-trace>
-          </failure>
-        </test-case>
+    <test-suite type="TestSuite" id="1008" name="LINQExample" fullname="LINQExample" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-09-25 09:44:13Z" end-time="2016-09-25 09:44:13Z" duration="0.077291" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="6">
+      <test-suite type="TestFixture" id="1000" name="TestExample" fullname="LINQExample.TestExample" classname="LINQExample.TestExample" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-09-25 09:44:13Z" end-time="2016-09-25 09:44:13Z" duration="0.072663" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="6">
+        <test-case id="1005" name="FindAEIOU" fullname="LINQExample.TestExample.FindAEIOU" methodname="FindAEIOU" classname="LINQExample.TestExample" runstate="Runnable" seed="1487942809" result="Passed" start-time="2016-09-25 09:44:13Z" end-time="2016-09-25 09:44:13Z" duration="0.009496" asserts="1" />
+        <test-case id="1004" name="FindPriceMoreThan20" fullname="LINQExample.TestExample.FindPriceMoreThan20" methodname="FindPriceMoreThan20" classname="LINQExample.TestExample" runstate="Runnable" seed="790901209" result="Passed" start-time="2016-09-25 09:44:13Z" end-time="2016-09-25 09:44:13Z" duration="0.002384" asserts="1" />
+        <test-case id="1003" name="FindSumOfOrdersThis" fullname="LINQExample.TestExample.FindSumOfOrdersThis" methodname="FindSumOfOrdersThis" classname="LINQExample.TestExample" runstate="Runnable" seed="1495651334" result="Passed" start-time="2016-09-25 09:44:13Z" end-time="2016-09-25 09:44:13Z" duration="0.001735" asserts="1" />
+        <test-case id="1002" name="Test_LINQ_Find_EvenLengthString" fullname="LINQExample.TestExample.Test_LINQ_Find_EvenLengthString" methodname="Test_LINQ_Find_EvenLengthString" classname="LINQExample.TestExample" runstate="Runnable" seed="1722209027" result="Passed" start-time="2016-09-25 09:44:13Z" end-time="2016-09-25 09:44:13Z" duration="0.000546" asserts="1" />
+        <test-case id="1001" name="Test_LINQ_Where" fullname="LINQExample.TestExample.Test_LINQ_Where" methodname="Test_LINQ_Where" classname="LINQExample.TestExample" runstate="Runnable" seed="527384130" result="Passed" start-time="2016-09-25 09:44:13Z" end-time="2016-09-25 09:44:13Z" duration="0.002549" asserts="1" />
+        <test-case id="1006" name="WantOnlyMod7AndPlus1" fullname="LINQExample.TestExample.WantOnlyMod7AndPlus1" methodname="WantOnlyMod7AndPlus1" classname="LINQExample.TestExample" runstate="Runnable" seed="1920338227" result="Passed" start-time="2016-09-25 09:44:13Z" end-time="2016-09-25 09:44:13Z" duration="0.002814" asserts="1" />
       </test-suite>
     </test-suite>
   </test-suite>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LINQExample.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,37 +11,34 @@ namespace LINQExample.Exams
     {
         public static int[] WhereIsOddsNumbers(int[] array) 
         {
-            var oddsNumber = array.Where(value => value % 2 == 1).ToArray();
-            return oddsNumber;
+            return array.Where(value => value % 2 == 1).ToArray();
         }
 
         public static string EvenLengthString(string[] mString)
         {
-            string evenLength = mString.Where(value => value.Length % 2 == 0).First();
-            return evenLength;
+            return mString.Where(value => value.Length % 2 == 0).First();
         }
 
         public static decimal GetSumOfOrders(List<Model.Order> orders)
         {
-            //decimal sum = orders.
-
-            throw new NotImplementedException();
+            return orders.Sum(value => value.Price);
         }
 
-        public static List<Model.Order> GetOrdersPriceMoreThanOrEqual20(List<Model.Order> orders)
+        public static List<Order> GetOrdersPriceMoreThanOrEqual20(List<Model.Order> orders)
         {
-            throw new NotImplementedException();
+            return orders.Where(value => value.Price >= 20).ToList();
         }
 
         public static int CountAeiou(string longString)
         {   //ignore case A = a
-            //int count = longString.Where(str => str.subString();
-            throw new NotImplementedException();
+            return longString.Count(str => str == 'a' || str == 'e' || str == 'i' || str == 'o' || str == 'u');
         }
 
         public static int[] Mod7AndPlus1(int[] series)
         {
-            throw new NotImplementedException();
+            int[] onlyMod7AndPlus1 = series.Where(value => value % 7 == 0  ).ToArray();
+
+            return onlyMod7AndPlus1.Select(data => data + 1).ToArray();
         }
     }
 }

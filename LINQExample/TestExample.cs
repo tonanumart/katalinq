@@ -45,7 +45,6 @@ namespace LINQExample
             var price50 = new Order() { Price = 50m };
             orders.Add(price50);
             orders.Add(new Order() { Price = 10m });
-
             var price30 = new Order() { Price = 30m };
             orders.Add(price30);
             orders.Add(new Order() { Price = 1.5m });
