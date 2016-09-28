@@ -1,9 +1,7 @@
 D:\Projects\Research\LINQ\LINQExample\obj\Debug\LINQExample.csprojResolveAssemblyReference.cache
-D:\Projects\Research\LINQ\LINQExample\bin\Debug\LINQExample.dll
 D:\Projects\Research\LINQ\LINQExample\bin\Debug\LINQExample.pdb
 D:\Projects\Research\LINQ\LINQExample\bin\Debug\nunit.framework.dll
 D:\Projects\Research\LINQ\LINQExample\bin\Debug\nunit.framework.xml
-D:\Projects\Research\LINQ\LINQExample\obj\Debug\LINQExample.dll
 D:\Projects\Research\LINQ\LINQExample\obj\Debug\LINQExample.pdb
 C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\bin\Debug\LINQExample.pdb
 C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\bin\Debug\nunit.framework.dll
@@ -13,3 +11,6 @@ C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\obj\Debug\LINQExample.
 C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\bin\Debug\nunitlite.dll
 C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\bin\Debug\LINQExample.exe
 C:\Users\kwanchanok.n\Desktop\katalinq-master\LINQExample\obj\Debug\LINQExample.exe
+D:\Projects\Research\LINQ\LINQExample\bin\Debug\LINQExample.exe
+D:\Projects\Research\LINQ\LINQExample\bin\Debug\nunitlite.dll
+D:\Projects\Research\LINQ\LINQExample\obj\Debug\LINQExample.exe

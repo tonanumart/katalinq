@@ -54,6 +54,8 @@
     <Compile Include="Model\Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringKata\Exam.cs" />
+    <Compile Include="StringKata\StringKata.cs" />
     <Compile Include="TestExample.cs" />
   </ItemGroup>
   <ItemGroup>
